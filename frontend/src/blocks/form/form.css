@@ -1,0 +1,14 @@
+.form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+  position: relative;
+}
+
+.form_is-loading {
+  opacity: 0.3;
+}

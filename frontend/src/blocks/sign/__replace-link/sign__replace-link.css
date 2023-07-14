@@ -1,0 +1,11 @@
+.sign__replace-link {
+  padding-left: 5px;
+  cursor: pointer;
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.sign__replace-link:hover {
+  opacity: 0.6;
+}

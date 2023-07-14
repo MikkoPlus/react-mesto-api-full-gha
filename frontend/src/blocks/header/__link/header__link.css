@@ -1,0 +1,18 @@
+.header__link {
+  width: 142px;
+  height: 33px;
+  display: block;
+}
+
+@media (max-width: 880px) {
+  .header__link {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 565px) {
+  .header__link {
+    width: 104px;
+    height: 24px;
+  }
+}

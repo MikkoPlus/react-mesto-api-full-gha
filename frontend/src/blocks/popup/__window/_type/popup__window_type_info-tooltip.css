@@ -1,0 +1,24 @@
+.popup__window_type_info-tooltip {
+    box-sizing: border-box;
+    padding: 60px 36px;
+    width: 430px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    align-items: center;
+}
+
+@media (max-width: 545px) {
+    .popup__window_type_info-tooltip  {
+        top: 123px;
+        width: 350px;
+        padding: 50px 18px;
+    }
+}
+
+@media (max-width: 436px) {
+    .popup__window_type_info-tooltip {
+        width: 282px;
+        height: 308px;
+    }
+}

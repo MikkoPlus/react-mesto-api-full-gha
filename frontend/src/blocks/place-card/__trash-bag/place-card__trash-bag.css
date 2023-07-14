@@ -1,0 +1,15 @@
+.place-card__trash-bag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 19px;
+    background: url('../../../images/icons/trash.svg') center center/contain no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .3s ease 0s;
+}
+
+.place-card__trash-bag:hover {
+    opacity: .6;
+}

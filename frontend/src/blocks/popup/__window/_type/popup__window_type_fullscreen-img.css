@@ -1,0 +1,13 @@
+.popup__window_type_fullscreen-img {
+    max-width: 100%;
+    max-height: 75vh;
+    padding: 0;
+    top: 90px;
+}
+
+@media (max-width: 580px) {
+    .popup__window_type_fullscreen-img {
+        width: 90vw;
+        min-height: 15vh;
+    }    
+}  

@@ -1,0 +1,21 @@
+.place-card__footer {
+    background-color: #fff;
+    padding: 20px 20px 22px 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    flex: 0 0 10%;
+}
+
+@media (max-width: 779px) {
+    .place-card__footer {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .place-card__footer {
+        padding: 25px 20px;
+    }
+}

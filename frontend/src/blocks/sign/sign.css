@@ -1,0 +1,16 @@
+.sign {
+  margin: 60px auto 0;
+  width: 358px;
+}
+
+@media (max-width: 400px) {
+  .sign {
+    width: 320px;
+  }
+}
+
+@media (max-width: 340px) {
+  .sign {
+    width: 260px;
+  }
+}

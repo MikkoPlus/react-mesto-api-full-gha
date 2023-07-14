@@ -1,0 +1,5 @@
+.translate-block {
+  position: relative;
+  transition: transform 0.3s ease 0s;
+  transform: translateY(0);
+}

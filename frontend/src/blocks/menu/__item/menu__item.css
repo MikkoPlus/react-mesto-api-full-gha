@@ -1,0 +1,17 @@
+.menu__item {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  height: fit-content;
+}
+
+.menu__item:first-of-type {
+  margin-right: 24px;
+}
+
+@media (max-width: 565px) {
+  .menu__item:first-of-type {
+    margin: 0 0 18px;
+  }
+}

@@ -1,0 +1,12 @@
+@media (max-width: 565px) {
+  .menu {
+    position: absolute;
+    transform: translateY(-100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 40px 0;
+    border-bottom: 1px solid #545454;
+  }
+}

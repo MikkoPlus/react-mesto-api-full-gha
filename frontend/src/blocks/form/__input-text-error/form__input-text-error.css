@@ -1,0 +1,8 @@
+.form__input-text-error {
+    font-size: 12px;
+    line-height: 18px;
+    color: #ff0000;
+    display: block;
+    padding-top: 5px;
+    white-space: break-spaces;
+}

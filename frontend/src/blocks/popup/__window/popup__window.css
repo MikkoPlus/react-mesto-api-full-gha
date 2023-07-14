@@ -1,0 +1,8 @@
+.popup__window {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 195px;
+    left: 50%;
+    transform: translateX(-50%);
+}

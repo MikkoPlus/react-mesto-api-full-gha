@@ -1,0 +1,26 @@
+.header__replace-link {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  height: fit-content;
+  opacity: 1;
+  transition: opacity 0.3s ease 0s;
+}
+.header__replace-link:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 880px) {
+  .header__replace-link {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__replace-link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
