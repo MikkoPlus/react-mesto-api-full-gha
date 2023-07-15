@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.74.230
+IP 158.160.74.230
 
 Frontend https://meste4ko.nomoredomains.work
 
