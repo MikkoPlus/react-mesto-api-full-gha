@@ -3,6 +3,7 @@ const { UnauthorizedError } = require('../errors/errors');
 
 const auth = (req, res, next) => {
   const token = req.cookies.jwt;
+  const { NODE_ENV, JWT_SECRET } = process.env;
   if (!token) {
     next(new UnauthorizedError());
     return;
@@ -11,7 +12,10 @@ const auth = (req, res, next) => {
   let payload;
 
   try {
-    payload = jwt.verify(token, process.env.JWT_SECRET || 'SECRET-KEY');
+    payload = jwt.verify(
+      token,
+      NODE_ENV === 'production' ? JWT_SECRET : 'my-secret-key',
+    );
   } catch (err) {
     next(new UnauthorizedError());
   }

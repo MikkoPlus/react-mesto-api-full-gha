@@ -99,11 +99,13 @@ const login = (req, res, next) => {
       bcrypt.compare(String(password), user.password).then((isValidUser) => {
         if (isValidUser) {
           // создал jwt
+          const { NODE_ENV, JWT_SECRET } = process.env;
+
           const jwt = jsonWebToken.sign(
             {
               _id: user._id,
             },
-            process.env.JWT_SECRET || 'SECRET-KEY',
+            NODE_ENV === 'production' ? JWT_SECRET : 'my-secret-key',
             { expiresIn: '7d' },
           );
           // Прикрепил к куке
