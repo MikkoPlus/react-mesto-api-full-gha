@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://api.meste4ko.nomoredomains.work';
+export const BASE_URL = 'https://api.meste4ko.nomoredomains.work';
 
 const request = (url, options) => {
   return fetch(`${BASE_URL}/${url}`, {

@@ -93,7 +93,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrlAdress: 'http://api.meste4ko.nomoredomains.work',
+  baseUrlAdress: 'https://api.meste4ko.nomoredomains.work',
   headers: {
     'Content-Type': 'application/json',
   },
